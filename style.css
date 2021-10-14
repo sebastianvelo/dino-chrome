@@ -13,12 +13,14 @@ body {
   justify-content: center;
   font-family: 'Noto Sans JP', sans-serif;
   font-family: 'Open Sans', sans-serif;
+  background-color: #fdfdfd;
 }
 
 #app {
-    width: 70vw;
+    width: 90vw;
     max-height: 100vw;
     overflow: hidden;
+    position: relative;
     
 }
 
