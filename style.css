@@ -49,6 +49,14 @@ a {
     text-decoration: none;
 }
 
+p {
+  font-size: 22px;
+}
+
+ul {
+  font-size: 18px;
+}
+
 @keyframes scroll-bg {
   0% {
     background-position: bottom left;
