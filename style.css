@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
+
+:root {
+  --player-size: 150px;
+  --player-position: 150px;
+  --scroll-time: 10s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#app {
+    width: 70vw;
+    max-height: 100vw;
+    overflow: hidden;
+    
+}
+
+.canvas {
+  background-image: url("https://media.ambito.com/p/0f55921c2db13aa4befa36fcb8b304f8/adjuntos/239/imagenes/037/945/0037945030/1200x900/smart/dinosaurio-google.jpg");
+  width: 500vw;
+  height: 300px;
+  animation: scroll-bg var(--scroll-time) linear reverse infinite;
+  position: relative;
+  margin-top: 150px;
+}
+
+.canvas #player {
+  position: absolute;
+  bottom: var(--player-position);
+  height: var(--player-size);
+  width: var(--player-size);
+}
+
+.message--title {
+    font-size: 42px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes scroll-bg {
+  0% {
+    background-position: bottom left;
+  }
+  100% {
+    background-position: bottom right;
+  }
+}
+
+@keyframes jump {
+  0% {
+    bottom: var(----player-size);
+  }
+}
