@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Open+Sans&display=swap');
 
 :root {
-  --player-size: 150px;
+  --player-size: 120px;
   --player-position: 150px;
-  --scroll-time: 10s;
+  --scroll-time: 12s;
 }
 
 body {
